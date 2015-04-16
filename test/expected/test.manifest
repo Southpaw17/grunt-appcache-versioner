@@ -1,0 +1,11 @@
+CACHE MANIFEST
+#4b4c06534193fa8458e8c09d0d59c1806fc3496d
+
+CACHE:
+test/fixtures/test.html
+test/fixtures/testScript.js
+
+NETWORK:
+*
+
+FALLBACK:

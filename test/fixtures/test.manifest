@@ -1,0 +1,11 @@
+CACHE MANIFEST
+#Version: 1.0.0
+
+CACHE:
+test/fixtures/test.html
+test/fixtures/testScript.js
+
+NETWORK:
+*
+
+FALLBACK:
