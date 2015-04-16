@@ -1,7 +1,7 @@
 {
   "name": "grunt-appcache-versioner",
-  "description": "Versions your appcache manifest files with a checksum",
-  "version": "0.1.0",
+  "description": "Versions your appcache manifest files with a checksum based on the contents of your CACHE header",
+  "version": "1.0.0",
   "homepage": "https://github.com/Southpaw17/grunt-appcache-versioner",
   "author": {
     "name": "Bruzzese, Frank",
@@ -36,6 +36,9 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "appcache",
+    "manifest",
+    "versioning",
+    "version"
   ]
 }

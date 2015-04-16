@@ -33,6 +33,9 @@ grunt.initConfig({
 });
 ```
 
+#### The Checksum
+You might be wondering how the checksum is generated.  This plugin iterates over all the files located in your CACHE header and creates a sha1 hash of their contents.  This ensures that your appcache manifest file changes each time a file it's responsible for changes.
+
 ### Usage Examples
 
 #### Normal Use Case
@@ -93,4 +96,4 @@ Note by changing the dest property of your target the file will be written to th
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+_April 16, 2015_ Released initial version of the plugin.
