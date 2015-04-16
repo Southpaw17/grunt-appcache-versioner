@@ -50,8 +50,11 @@ grunt.initConfig({
 ```
 
 Let's say you have the following cache manifest file in the root directory of your project:
+
 ###### example.manifest
-```CACHE MANIFEST
+
+```
+CACHE MANIFEST
 #Version 1.0.0
 
 CACHE:
@@ -66,8 +69,11 @@ FALLBACK:
 ```
 
 Running the above configuration will overwrite this file with the following:
+
 ###### example.manifest
-```CACHE MANIFEST
+
+```
+CACHE MANIFEST
 #ea91533aa7cebc582decb5c7c7ba573b3d7ebc2e
 
 CACHE:
