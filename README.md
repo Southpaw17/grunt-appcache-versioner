@@ -1,6 +1,6 @@
 # grunt-appcache-versioner
 
-> Versions your appcache manifest files with a checksum
+> Versions your appcache manifest files with a checksum based on the contents of your CACHE header
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
