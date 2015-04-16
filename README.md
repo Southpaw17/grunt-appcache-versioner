@@ -81,7 +81,7 @@ FALLBACK:
 #No fallbacks
 ```
 
-Note by changing the dest property of your target the file will be written to the dest directory.  For example, with `dest: "build"` your versioned manifest file will end up in `build/example.manifest`, leaving the original intact.
+Note by changing the dest property of your target the file will be written to the dest directory.  For example, with `dest: "build"` your versioned manifest file will end up in `build/example.manifest`, leaving the original intact.  The file structure is preserved, so if you had `some/dir/example.manifest` it would appear as `build/some/dir/example.manifest`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
