@@ -30,8 +30,8 @@ exports.appcache_versioner = {
   manifests: function(test) {
     test.expect(1);
 
-    var actual = grunt.file.read('test/tmp/test/fixtures/test.manifest');
-    var expected = grunt.file.read('test/expected/test.manifest');
+    var actual = grunt.file.read('test/tmp/test/fixtures/test.manifest-test');
+    var expected = grunt.file.read('test/expected/test.manifest-test');
     test.equal(actual, expected, 'should describe what the default behavior is.');
 
     test.done();

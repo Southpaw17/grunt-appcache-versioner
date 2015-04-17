@@ -29,7 +29,7 @@ module.exports = function (grunt) {
         // Configuration to be run (and then tested).
         appcache_versioner: {
             manifests: {
-                src: "test/fixtures/*.manifest",
+                src: "test/fixtures/*.manifest-test",
                 dest: "test/tmp"
             }
         },
